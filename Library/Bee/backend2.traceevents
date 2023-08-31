@@ -1,0 +1,243 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1693440042776497, "dur":18688, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693440042795193, "dur":56, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693440042795279, "dur":330, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693440042795627, "dur":4349, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693440042799978, "dur":248570, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693440043048549, "dur":267, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693440043048982, "dur":1053, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1693440042795997, "dur":3986, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693440042799985, "dur":2263, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693440042804054, "dur":280, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1693440042804340, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1693440042804758, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Games\\Zion Escape\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693440042804835, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Games\\Zion Escape\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693440042804984, "dur":198, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Games\\Zion Escape\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693440042805183, "dur":288, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Games\\Zion Escape\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693440042805472, "dur":386, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Games\\Zion Escape\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693440042805859, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Games\\Zion Escape\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693440042805935, "dur":345, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Games\\Zion Escape\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693440042806325, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player6485e98a-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1693440042804338, "dur":2109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1693440042806763, "dur":143189, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1693440042951045, "dur":1289, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1693440042951045, "dur":1290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Games/Game/Tutorial 3D Mario Game_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1693440042952353, "dur":504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1693440042952860, "dur":95693, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693440042796036, "dur":3962, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693440042800000, "dur":314, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693440042800315, "dur":1937, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693440042802283, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"K:\\Unity\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1693440042802263, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Games/Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1693440042803470, "dur":10702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1693440042814453, "dur":13093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1693440042827630, "dur":1047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game.exe" }}
+,{ "pid":12345, "tid":2, "ts":1693440042829025, "dur":63965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1693440042893048, "dur":1822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1693440042894891, "dur":153665, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693440042796042, "dur":3961, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693440042800006, "dur":318, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693440042800325, "dur":1931, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693440042802291, "dur":68, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693440042803168, "dur":14897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1693440042818513, "dur":221570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1693440043040108, "dur":8443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693440042796071, "dur":3943, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693440042800016, "dur":352, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693440042800368, "dur":1893, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693440042802263, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Games/Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1693440042803174, "dur":6213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1693440042809430, "dur":85109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1693440042894557, "dur":153978, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693440042796107, "dur":3917, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693440042800025, "dur":296, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693440042800322, "dur":1931, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693440042802263, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Games/Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1693440042802951, "dur":245528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1693440042796149, "dur":3884, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693440042800033, "dur":2218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693440042802281, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"K:\\Unity\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1693440042802263, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Games/Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1693440042803515, "dur":69568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1693440042873130, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693440042873919, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693440042874754, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693440042875890, "dur":898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693440042876851, "dur":637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693440042877527, "dur":837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693440042878490, "dur":1305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693440042879827, "dur":893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693440042880746, "dur":991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693440042881782, "dur":1018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693440042882832, "dur":5465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":6, "ts":1693440042888332, "dur":1259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1693440042889629, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/level4.resS" }}
+,{ "pid":12345, "tid":6, "ts":1693440042891042, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1693440042892187, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1693440042893551, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1693440042894757, "dur":153790, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693440042796025, "dur":3963, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693440042799995, "dur":352, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693440042800347, "dur":1912, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693440042802292, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"K:\\Unity\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1693440042802261, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Games/Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1693440042803919, "dur":1799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1693440042805938, "dur":87963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1693440042893930, "dur":2214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1693440042896163, "dur":152373, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693440042796062, "dur":3946, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693440042800013, "dur":355, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693440042800369, "dur":1897, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693440042802287, "dur":160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"K:\\Unity\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":8, "ts":1693440042802267, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Games/Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1693440042810540, "dur":4210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1693440042814866, "dur":8733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1693440042823662, "dur":42974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693440042866682, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693440042867632, "dur":575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693440042868830, "dur":65, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693440042868252, "dur":654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693440042868958, "dur":664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693440042869656, "dur":572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693440042870260, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693440042871041, "dur":683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693440042871764, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693440042872527, "dur":741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693440042873304, "dur":789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693440042874120, "dur":710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693440042874860, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693440042875887, "dur":904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693440042876833, "dur":127, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693440042876963, "dur":620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693440042877620, "dur":893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693440042878540, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693440042879673, "dur":1269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693440042880968, "dur":110, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693440042881080, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693440042881982, "dur":644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":8, "ts":1693440042882652, "dur":860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1693440042883543, "dur":3505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1693440042887097, "dur":954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1693440042888082, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1693440042889006, "dur":1200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/level5.resS" }}
+,{ "pid":12345, "tid":8, "ts":1693440042890240, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/level3.resS" }}
+,{ "pid":12345, "tid":8, "ts":1693440042891300, "dur":102, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693440042891404, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1693440042892693, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1693440042893995, "dur":154552, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693440042796092, "dur":3927, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693440042800021, "dur":334, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693440042800355, "dur":1909, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693440042802265, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Games/Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1693440042803264, "dur":14517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1693440042817854, "dur":76766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1693440042894648, "dur":153885, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693440042796149, "dur":3878, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693440042800030, "dur":340, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693440042800370, "dur":1885, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693440042802286, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"K:\\Unity\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":10, "ts":1693440042802263, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Games/Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1693440042814339, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693440042803909, "dur":10494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1693440042814567, "dur":2233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1693440042816852, "dur":77696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1693440042894560, "dur":153974, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693440042796178, "dur":3861, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693440042800039, "dur":2214, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693440042802262, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Games/Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1693440042802836, "dur":73117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1693440042876834, "dur":146, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693440042876005, "dur":984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693440042877028, "dur":591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693440042877648, "dur":654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693440042878377, "dur":1919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693440042880925, "dur":147, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693440042880330, "dur":750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693440042881122, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693440042882456, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":11, "ts":1693440042883590, "dur":1911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":11, "ts":1693440042885535, "dur":1663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1693440042888190, "dur":67, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693440042887224, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1693440042888299, "dur":738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1693440042889064, "dur":708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/level5" }}
+,{ "pid":12345, "tid":11, "ts":1693440042889798, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/level4" }}
+,{ "pid":12345, "tid":11, "ts":1693440042892037, "dur":84, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693440042890983, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/level3" }}
+,{ "pid":12345, "tid":11, "ts":1693440042892169, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/level1.resS" }}
+,{ "pid":12345, "tid":11, "ts":1693440042893545, "dur":4115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1693440042897686, "dur":150860, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693440042796202, "dur":3841, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693440042800044, "dur":2206, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693440042802270, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693440042803346, "dur":2350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1693440042805961, "dur":12277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1693440042818509, "dur":14460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042833190, "dur":2258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042835506, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042836993, "dur":1401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042838431, "dur":558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042839020, "dur":521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042839575, "dur":848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042840453, "dur":624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042841114, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042842205, "dur":699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042842935, "dur":621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042843586, "dur":502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042844110, "dur":459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042844605, "dur":522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042845158, "dur":568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042845753, "dur":1036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042846839, "dur":513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042847372, "dur":802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042848202, "dur":579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042848810, "dur":667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042849512, "dur":633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042850179, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042850968, "dur":546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042851562, "dur":585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042852172, "dur":374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042852572, "dur":755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042853354, "dur":532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042853910, "dur":445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042854376, "dur":371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042854778, "dur":477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042855283, "dur":562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042855875, "dur":713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042856621, "dur":579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042857234, "dur":792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042858058, "dur":544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042858634, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042859336, "dur":517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042859884, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042860572, "dur":567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042861175, "dur":556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042861763, "dur":520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042862316, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042863029, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042863617, "dur":516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042864170, "dur":611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042864817, "dur":763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042865604, "dur":506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042866143, "dur":584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042866757, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042867630, "dur":1227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042868909, "dur":802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042869745, "dur":590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042870365, "dur":639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042871038, "dur":692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042871767, "dur":732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042872529, "dur":630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042873200, "dur":701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042873930, "dur":777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042874739, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042875857, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042877486, "dur":792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042878364, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042879571, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042879655, "dur":1029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042880716, "dur":1121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/Tutorial 3D Mario Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440042881906, "dur":150239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Games/Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693440043032168, "dur":16387, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693440043052646, "dur":842, "ph":"X", "name": "ProfilerWriteOutput" }
+,
